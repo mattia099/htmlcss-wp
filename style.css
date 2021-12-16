@@ -25,12 +25,15 @@ html{
 
 
 /* HEADER */
-header{
-    
+
+header .container-logo{
+    border-right: 1px solid lightgrey;
+    height: 70px;
+    width: 180px;
 }
 
-header .logo{
-    height: 80px;
+header .container-logo img{
+    height: 100%;
 }
 
 .menu ul{
@@ -49,6 +52,7 @@ header .logo{
     text-decoration: none;
     
 }
+
 
 
 /* MAIN */ /*FIRST-SECTION*/
