@@ -23,10 +23,20 @@ html{
     clear: both;
 }
 
+.overlay::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    opacity: 0.2;
+    border-radius: 20px;
+}
 
 /* HEADER */
 header{
-    
     position: sticky;
     top: 0px;
     z-index: 99999;
@@ -87,17 +97,7 @@ main .first-section .banner-text{
     z-index: 1;
 }
 
-main .first-section::after{
-    content: '';
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: black;
-    opacity: 0.2;
-    border-radius: 20px;
-}
+
 
 
 /* MAIN */ /*SECOND-SECTION*/
@@ -132,29 +132,7 @@ main .row img{
     
 }
 
-.second-section__content .row::after{
-    content: '';
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: black;
-    opacity: 0.2;
-    border-radius: 20px;
-}
 
-.second-section__sidebar .row::after{
-    content: '';
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: black;
-    opacity: 0.2;
-    border-radius: 20px;
-}
 
 /*FOOTER*/
 
