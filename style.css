@@ -14,7 +14,7 @@ html{
 
 .center{
     max-width: 1024px;
-    margin: 20px auto;
+    margin: 0 auto;
 }
 
 .clearfix::after{
@@ -25,7 +25,15 @@ html{
 
 
 /* HEADER */
-
+header{
+    
+    position: sticky;
+    top: 0px;
+    z-index: 99999;
+    background: white;
+    padding-bottom: 5px;
+    
+}
 header .container-logo{
     border-right: 1px solid lightgrey;
     height: 70px;
